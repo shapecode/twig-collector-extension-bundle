@@ -1,0 +1,43 @@
+{
+    "name": "shapecode/twig-collector-extension-bundle",
+    "description": "",
+    "keywords": [
+        "shapecode",
+        "symfony",
+        "bundle",
+        "twig",
+        "extension",
+        "collect",
+        "collector",
+        "capture"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "homepage": "http://shapecode.de",
+    "support": {
+        "email": "support@nikita-loges.de",
+        "issues": "https://bitbucket.org/shapecode/symfony-twig-collector-extension-bundle/issues",
+        "source": "https://bitbucket.org/shapecode/symfony-twig-collector-extension-bundle/downloads",
+        "wiki": "https://bitbucket.org/shapecode/symfony-twig-collector-extension-bundle/wiki/Home"
+    },
+    "authors": [
+        {
+            "name": "Nikita Loges",
+            "homepage": "http://nikita-loges.de",
+            "email": "develop@nikita-loges.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/dependency-injection": "~2.6",
+        "symfony/http-kernel": "~2.6",
+        "symfony/config": "~2.6",
+        "symfony/twig-bundle": "~2.6",
+        "twig/twig": "~1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shapecode\\Bundle\\TwigCollectorBundle\\": ""
+        }
+    }
+}
