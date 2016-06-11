@@ -13,12 +13,12 @@
     ],
     "type": "symfony-bundle",
     "license": "MIT",
-    "homepage": "http://shapecode.de",
+    "homepage": "https://github.com/shapecode/twig-collector-extension-bundle",
     "support": {
         "email": "support@nikita-loges.de",
-        "issues": "https://bitbucket.org/shapecode/symfony-twig-collector-extension-bundle/issues",
-        "source": "https://bitbucket.org/shapecode/symfony-twig-collector-extension-bundle/downloads",
-        "wiki": "https://bitbucket.org/shapecode/symfony-twig-collector-extension-bundle/wiki/Home"
+        "issues": "https://github.com/shapecode/twig-collector-extension-bundle/issues",
+        "source": "https://github.com/shapecode/twig-collector-extension-bundle/releases",
+        "wiki": "https://github.com/shapecode/twig-collector-extension-bundle/wiki"
     },
     "authors": [
         {
