@@ -30,29 +30,21 @@
     "require": {
         "php": "~5.5|~7.0",
 
-        "symfony/dependency-injection": "~2.8|~3.0",
-        "symfony/http-kernel": "~2.8|~3.0",
-        "symfony/config": "~2.8|~3.0",
-        "symfony/twig-bundle": "~2.8|~3.0",
+        "symfony/dependency-injection": "~2.8|~3.0|~4.0",
+        "symfony/http-kernel": "~2.8|~3.0|~4.0",
+        "symfony/config": "~2.8|~3.0|~4.0",
+        "symfony/twig-bundle": "~2.8|~3.0|~4.0",
 
-        "shapecode/twig-collector-extension": "~1.1"
-    },
-    "require-dev": {
-        "symfony/phpunit-bridge": "~2.8|~3.0"
+        "shapecode/twig-collector-extension": "~1.3"
     },
     "autoload": {
         "psr-4": {
             "Shapecode\\Bundle\\TwigCollectorBundle\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Shapecode\\Bundle\\TwigCollectorBundle\\Tests\\": "tests/"
-        }
-    },
     "extra": {
         "branch-alias": {
-            "dev-release/1.1": "1.1-dev"
+            "dev-master": "1.0-dev"
         }
     },
     "minimum-stability": "dev",

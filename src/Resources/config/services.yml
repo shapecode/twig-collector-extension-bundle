@@ -1,8 +1,5 @@
-parameters:
-    shapecode_twig_collector.twig_extension.collector.class: Shapecode\Twig\Extensions\Extension\Collector
-
 services:
     shapecode_twig_collector.twig_extension.collector:
-        class: %shapecode_twig_collector.twig_extension.collector.class%
+        class: Shapecode\Twig\Extensions\Extension\CollectorExtension
         tags:
             - { name: twig.extension }
